@@ -1,5 +1,7 @@
 module C
-  get '/' do 
-    p "test"
+  class Application < Sinatra::Base
+      get '/' do
+        p 'Working' 
+      end
   end
 end

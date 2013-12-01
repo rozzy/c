@@ -1,5 +1,3 @@
 module C
-  def run
-    run Sinatra::Application
-  end
+  C::Application.run!
 end
