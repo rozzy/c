@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'berozzy@gmail.com'
   spec.description   = %q{Turns your domain into awesome files repository.}
   spec.summary       = spec.description
-  spec.source        = 'https://github.com/rozzy/c'
+  spec.homepage        = 'https://github.com/rozzy/c'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.3'
-  spec.add_development_dependency 'sinatra', '=> 1.3'
+  spec.add_development_dependency 'sinatra', '>= 1.3'
   spec.add_development_dependency 'rake'
 end

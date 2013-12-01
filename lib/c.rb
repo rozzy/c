@@ -1,5 +1,5 @@
-require 'c/version'
+# encoding: utf-8
 require 'sinatra'
-module C
-  # Your code goes here...
-end
+require 'c/version'
+require 'c/router'
+require 'c/init'
