@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = C::VERSION
   spec.authors       = ["Rozzy"]
   spec.email         = ["berozzy@gmail.com"]
-  spec.description   = %q{Ruby gem for domain repository}
+  spec.description   = %q{Turns your domain into awesome files repository.}
   spec.summary       = spec.description
   spec.homepage      = "https://github.com/rozzy/c"
   spec.license       = "MIT"
