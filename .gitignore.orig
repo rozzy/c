@@ -1,0 +1,30 @@
+*.gem
+*.rbc
+.bundle
+.config
+<<<<<<< HEAD
+.yardoc
+Gemfile.lock
+InstalledFiles
+_yardoc
+coverage
+doc/
+=======
+coverage
+InstalledFiles
+>>>>>>> 53d115ae6c47389a602f3d882fe0e922bc0ce921
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+<<<<<<< HEAD
+=======
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+>>>>>>> 53d115ae6c47389a602f3d882fe0e922bc0ce921
