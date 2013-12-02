@@ -1,7 +1,8 @@
 module C
-  class Application < Sinatra::Base
-      get '/' do
-        p 'Working' 
-      end
+  class Application < Sinatra::Base 
+    helpers С::Methods
+    get '/' do
+      p "path = #{bar}"
+    end
   end
 end
