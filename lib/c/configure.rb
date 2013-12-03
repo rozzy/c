@@ -1,10 +1,7 @@
 module C
-  def test
-    't'
+  class Configuration < Sinatra::Base
+    configure do
+      set :path, "repository"
+    end
   end
-  # module Config
-  #   configure do
-  #     set :path, "repository"
-  #   end
-  # end
 end
