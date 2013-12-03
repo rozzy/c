@@ -1,3 +1,3 @@
 module C
-  C::Application.run!
+  C::Application.new
 end
